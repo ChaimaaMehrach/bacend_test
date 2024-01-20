@@ -1,0 +1,17 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: SERVICE-ADMIN
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url:
+      jdbc:mysql://localhost:3306/test1?createDatabaseIfNoExist=true
+    username: "root"
+    password: "root"
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+
